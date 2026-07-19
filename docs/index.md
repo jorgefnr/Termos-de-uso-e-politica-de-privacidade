@@ -26,6 +26,7 @@ Controle vendas, produtos, ciclos de cultivo, análises de solo, fluxo de caixa 
 ## 📥 Baixar
 
 O app estará disponível em breve na Google Play Store.
+https://play.google.com/store/apps/details?id=com.hortpay.app&pcampaignid=web_share
 
 ---
 
