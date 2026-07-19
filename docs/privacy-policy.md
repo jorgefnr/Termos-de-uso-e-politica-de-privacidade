@@ -155,8 +155,6 @@ Dúvidas, solicitações de exclusão de dados ou reclamações:
 
 **Email:** gestaodeestufashf@gmail.com
 
-*(substitua pelo email real de suporte quando publicar)*
-
 ---
 
 *HortPay © 2026. Aplicativo desenvolvido de forma independente. Não afiliado ou endossado pelo Google LLC.*
