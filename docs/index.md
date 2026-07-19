@@ -38,9 +38,7 @@ O app estará disponível em breve na Google Play Store.
 
 ## 📧 Contato
 
-Para dúvidas, sugestões ou suporte: **hortpay.suporte@gmail.com**
-
-*(substitua pelo seu email real de suporte)*
+Para dúvidas, sugestões ou suporte: gestaodeestufashf@gmail.com
 
 ---
 
