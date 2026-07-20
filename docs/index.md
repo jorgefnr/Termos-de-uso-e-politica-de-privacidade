@@ -2,47 +2,57 @@
 title: HortPay
 ---
 
-# HortPay
+# 🌱 HortPay
 
-## Gestão Financeira Agrícola
+### Gestão financeira agrícola offline para produtores rurais
 
-O HortPay é um aplicativo de gestão agrícola desenvolvido para produtores rurais que desejam controlar toda a administração da propriedade diretamente pelo celular, mesmo sem acesso à internet.
-
-O aplicativo permite organizar informações da produção de forma simples, rápida e segura..
-
-### Principais recursos
-
-- Controle de vendas
-- Controle financeiro
-- Controle de estoque
-- Controle de aplicações foliares
-- Controle de fertirrigação
-- Planejamento de cultivos
-- Histórico de colheitas
-- Análises de solo
-- Relatórios
-- Backup criptografado no Google Drive (opcional)
-
-### Segurança
-
-Os dados permanecem armazenados no dispositivo do usuário.
-
-Quando autorizado pelo usuário, o HortPay pode criar um backup criptografado na conta Google Drive para restaurar as informações em caso de troca ou perda do aparelho.
-
-O aplicativo não acessa arquivos pessoais do Google Drive. Apenas cria e utiliza sua própria pasta de backup.
+O **HortPay** é um aplicativo desenvolvido para facilitar o gerenciamento da propriedade rural, permitindo controlar toda a produção diretamente pelo celular, mesmo sem internet.
 
 ---
 
-## Documentação
+## 🚜 Principais recursos
+
+- 💰 Controle de vendas
+- 📦 Controle de estoque
+- 🌱 Gestão de cultivos
+- 💧 Controle de fertirrigação
+- 🍃 Controle de aplicações foliares
+- 📅 Planejamento agrícola
+- 📊 Relatórios completos
+- 🧪 Análises de solo
+- ☁️ Backup criptografado no Google Drive (opcional)
+- 📱 Funcionamento totalmente offline
+
+---
+
+## 🔒 Segurança
+
+- Os dados permanecem armazenados no dispositivo do usuário.
+- O backup no Google Drive é opcional.
+- O aplicativo acessa apenas a pasta de backup criada pelo próprio usuário.
+- Nenhum arquivo pessoal do Google Drive é acessado.
+
+---
+
+## 📲 Download
+
+Disponível na Google Play:
+
+**https://play.google.com/store/apps/details?id=com.hortpay.app**
+
+---
+
+## 📄 Documentos
 
 - [Política de Privacidade](privacy-policy.html)
-
 - [Termos de Uso](terms-of-service.html)
 
 ---
 
-## Contato
+## 📧 Contato
 
-E-mail:
+**E-mail:** gestadodeestufashf@gmail.com
 
-gestaodoestufashf@gmail.com
+---
+
+© 2026 HortPay. Todos os direitos reservados.
