@@ -38,7 +38,7 @@ O **HortPay** é um aplicativo desenvolvido para facilitar o gerenciamento da pr
 
 Disponível na Google Play:
 
-**https://play.google.com/store/apps/details?id=com.hortpay.app**
+[📱 Baixar na Google Play](https://play.google.com/store/apps/details?id=com.hortpay.app)
 
 ---
 
