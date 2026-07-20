@@ -1,46 +1,49 @@
 ---
 layout: default
-title: HortPay - Gestão Financeira Agrícola
+title: HortPay
 ---
 
 # HortPay
 
-**Gestão financeira agrícola offline-first para pequenos e médios produtores.**
+## Gestão Financeira Agrícola
 
-Controle vendas, produtos, ciclos de cultivo, análises de solo, fluxo de caixa e muito mais — tudo no seu celular, sem depender de internet. Backup automático na nuvem via Google Drive para você nunca perder seus dados.
+O HortPay é um aplicativo de gestão agrícola desenvolvido para produtores rurais que desejam controlar toda a administração da propriedade diretamente pelo celular, mesmo sem acesso à internet.
 
----
+O aplicativo permite organizar informações da produção de forma simples, rápida e segura.
 
-## ✨ Principais recursos
+### Principais recursos
 
-- 🛒 **Vendas** — registre vendas por produto, período, comprador
-- 🌱 **Estufas e ciclos de cultivo** — acompanhe cada plantio do início ao fim
-- 💰 **Fluxo de caixa** — entradas, saídas, categorias, cartões de crédito
-- 🧪 **Análises de solo** — importe e acompanhe resultados
-- ☁️ **Backup automático na nuvem** — proteção total dos seus dados via Google Drive
-- 📱 **Funciona 100% offline** — dados salvos localmente, sincronização opcional
-- 🔒 **Seguro** — SecureStore para tokens, criptografia por hardware do Android
+- Controle de vendas
+- Controle financeiro
+- Controle de estoque
+- Controle de aplicações foliares
+- Controle de fertirrigação
+- Planejamento de cultivos
+- Histórico de colheitas
+- Análises de solo
+- Relatórios
+- Backup criptografado no Google Drive (opcional)
 
----
+### Segurança
 
-## 📥 Baixar
+Os dados permanecem armazenados no dispositivo do usuário.
 
-O app estará disponível em breve na Google Play Store.
-[Baixar na Google Play](https://play.google.com/store/apps/details?id=com.hortpay.app&pcampaignid=web_share)
+Quando autorizado pelo usuário, o HortPay pode criar um backup criptografado na conta Google Drive para restaurar as informações em caso de troca ou perda do aparelho.
 
----
-
-## 📜 Documentos legais
-
-- [Política de Privacidade](./privacy-policy.html)
-- [Termos de Serviço](./terms-of-service.html)
+O aplicativo não acessa arquivos pessoais do Google Drive. Apenas cria e utiliza sua própria pasta de backup.
 
 ---
 
-## 📧 Contato
+## Documentação
 
-Para dúvidas, sugestões ou suporte: gestaodeestufashf@gmail.com
+- [Política de Privacidade](privacy-policy.html)
+
+- [Termos de Uso](terms-of-service.html)
 
 ---
 
-*© 2026 HortPay. Todos os direitos reservados.*
+## Contato
+
+E-mail:
+
+gestaodoestufashf@gmail.com
