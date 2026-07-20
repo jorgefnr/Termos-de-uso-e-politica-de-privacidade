@@ -9,7 +9,7 @@ title: HortPay
 
 O HortPay é um aplicativo de gestão agrícola desenvolvido para produtores rurais que desejam controlar toda a administração da propriedade diretamente pelo celular, mesmo sem acesso à internet.
 
-O aplicativo permite organizar informações da produção de forma simples, rápida e segura.
+O aplicativo permite organizar informações da produção de forma simples, rápida e segura..
 
 ### Principais recursos
 
