@@ -205,21 +205,23 @@ body {
     margin: 15px 0;
   }
 }
+  .hp-hero-image {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+
+.hp-hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0 0 24px 24px;
+}
 </style>
 
-<div class="hp-hero">
-  <div class="hp-logo">🌱</div>
-
-  <h1>HortPay</h1>
-
-  <p>
-    Gestão financeira e operacional para produtores rurais.
-    Simples, completa e preparada para funcionar mesmo sem internet.
-  </p>
-
-  <div class="hp-badge">
-    🌱 Gestão agrícola • 📱 Offline-first • ☁️ Backup opcional
-  </div>
+<div class="hp-hero-image">
+  <img src="hortpay-site.png" alt="HortPay — Gestão agrícola">
 </div>
 
 <div class="hp-container">
