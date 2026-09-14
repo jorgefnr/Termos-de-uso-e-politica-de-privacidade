@@ -24,41 +24,51 @@ body {
 }
 
 .hp-hero {
-  background: linear-gradient(135deg, #2E7D32 0%, #5E8F3B 55%, #7FAE57 100%);
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 45%, #5E8F3B 100%);
   color: white;
   text-align: center;
-  padding: 70px 25px 65px;
-  margin: -20px -20px 45px;
+  padding: 85px 25px 80px;
+  margin: -20px -20px 55px;
+  border-radius: 0 0 28px 28px;
+  box-shadow: 0 8px 30px rgba(46, 125, 50, 0.18);
 }
 
 .hp-logo {
-  font-size: 64px;
-  margin-bottom: 12px;
+  font-size: 52px;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
 }
 
 .hp-hero h1 {
-  font-size: 52px;
-  margin: 0 0 12px;
+  font-size: 50px;
+  margin: 0 0 14px;
   font-weight: 800;
-  letter-spacing: -1px;
+  letter-spacing: -1.2px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
 
 .hp-hero p {
-  font-size: 21px;
-  max-width: 720px;
+  font-size: 18px;
+  max-width: 680px;
   margin: 0 auto;
-  opacity: .95;
-  line-height: 1.6;
+  opacity: .92;
+  line-height: 1.7;
+  font-weight: 400;
+  letter-spacing: .1px;
 }
 
 .hp-badge {
-  display: inline-block;
-  margin-top: 25px;
-  padding: 9px 18px;
-  border: 1px solid rgba(255,255,255,.45);
-  border-radius: 30px;
-  background: rgba(255,255,255,.12);
-  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 28px;
+  padding: 10px 18px;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  backdrop-filter: blur(8px);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .2px;
 }
 
 .hp-container {
