@@ -3,163 +3,264 @@ layout: default
 title: Termos de Serviço - HortPay
 ---
 
-# Termos de Serviço — HortPay
+# Termos de Uso — HortPay
 
-**Última atualização:** 18 de julho de 2026
+**Última atualização: 14 de setembro de 2026**
 
-Bem-vindo ao HortPay. Estes Termos de Serviço ("Termos") regem o uso do aplicativo móvel HortPay ("app"). Ao instalar, acessar ou utilizar o HortPay, você concorda com estes Termos. Se você não concordar, por favor não use o aplicativo.
-
----
-
-## 1. Descrição do serviço
-
-O HortPay é um aplicativo móvel gratuito de gestão financeira agrícola voltado a pequenos e médios produtores. As principais funcionalidades incluem:
-
-- Cadastro e gestão de vendas, produtos, ciclos de cultivo e insumos
-- Controle de fluxo de caixa (entradas, saídas, cartões de crédito, parcelas)
-- Análises de solo e histórico
-- Backup automático dos dados locais em conta Google Drive do próprio usuário
-- Restauração de backups em novos dispositivos
-
-O app funciona 100% offline. A conexão com internet é necessária apenas para o recurso opcional de Backup na Nuvem.
+**Aplicativo:** HortPay — Controle de Vendas, Cultivos, Estoque e Financeiro  
+**Desenvolvedor:** Jorge Fernando do Nascimento Rodrigues  
+**Contato:** gestaodeestufashf@gmail.com
 
 ---
 
-## 2. Elegibilidade
+## 1. Aceitação dos Termos
 
-Você declara que:
+Ao baixar, instalar ou utilizar o aplicativo **HortPay**, você concorda integralmente com estes Termos de Uso.
 
-- Tem no mínimo 18 anos de idade OU tem consentimento de pais/responsáveis para usar o app
-- Fornece informações verdadeiras ao cadastrar dados no app
-- É o dono da conta Google que conectar para backup (se optar por esse recurso)
-- Está utilizando o app dentro das leis do seu país
+Caso não concorde com qualquer disposição aqui prevista, interrompa imediatamente o uso do aplicativo e desinstale-o de seu dispositivo.
 
 ---
 
-## 3. Conta e credenciais
+## 2. Descrição do Serviço
 
-- O HortPay **não requer criação de conta** para funcionamento básico. Dados ficam salvos localmente no dispositivo.
-- Para usar o Backup na Nuvem, você conecta uma conta Google existente via OAuth 2.0. Você é responsável por manter suas credenciais Google seguras (senha forte, 2FA ativado recomendado).
-- Se sua conta Google for comprometida, entre em contato com o Google para recuperação. O HortPay não tem controle sobre a segurança da sua conta Google.
+O **HortPay** é um aplicativo Android destinado à gestão agrícola e financeira do produtor rural, permitindo controlar:
 
----
+- Cultivos e áreas de plantio, com sistema de ciclos de produção;
+- Vendas e compradores, com múltiplas formas de pagamento;
+- Estoque de insumos, utilizando sistema FIFO para cálculo de custos;
+- Aplicações foliares e de fertirrigação;
+- Custos de cultivo por ciclo ou estufa;
+- Análise de solo e recomendações agronômicas;
+- **Financeiro:** Contas a Pagar, Contas a Receber, Parcelamentos, Categorias personalizadas e Notificações de vencimento;
+- **Fluxo de Caixa:** Entradas, Saídas, Gráfico de saldo e Relatórios por período (CSV e PDF);
+- Cartões de Crédito, com cálculo automático das parcelas conforme a data de fechamento e vencimento da fatura;
+- Controle de Saldo Inicial (dinheiro e contas bancárias);
+- Relatórios e exportações em PDF, Excel, CSV e JSON;
+- Backup completo dos dados em arquivo JSON (local);
+- Backup na Nuvem opcional via Google Drive.
 
-## 4. Uso permitido
+O aplicativo funciona de forma **offline-first**. Por padrão, todas as informações são armazenadas exclusivamente no dispositivo do usuário.
 
-Você concorda em usar o HortPay apenas para fins legítimos de gestão pessoal ou empresarial dos seus dados agrícolas. É proibido:
-
-- Fazer engenharia reversa, descompilar ou modificar o app
-- Redistribuir o app ou parte dele sem autorização
-- Usar o app para atividades ilegais, fraudulentas ou que violem direitos de terceiros
-- Tentar obter acesso não autorizado ao Drive de outros usuários via manipulação do app
-- Sobrecarregar intencionalmente a API do Google Drive por meio do app
-
----
-
-## 5. Propriedade intelectual
-
-- O código-fonte, marca, logotipo e design do HortPay são propriedade do desenvolvedor do app.
-- Os **dados que você cadastra no app** (produtos, vendas, cash flow, etc.) são **de sua propriedade**. Nós não temos acesso, nem armazenamos em servidores próprios.
+O envio de dados para a nuvem ocorre somente quando o usuário ativa voluntariamente o recurso **Backup na Nuvem**, entrando com sua conta Google, conforme descrito na Seção 8 destes Termos e na Política de Privacidade.
 
 ---
 
-## 6. Backup na Nuvem — responsabilidades
+## 3. Licença de Uso
 
-Ao ativar o Backup na Nuvem, você entende que:
+É concedida ao usuário uma licença limitada, não exclusiva, intransferível e revogável para utilização do HortPay em dispositivo de sua propriedade, observadas as condições destes Termos.
 
-- Backups são enviados para **sua própria conta Google Drive** (pasta oculta AppDataFolder)
-- Nós **não temos cópia** dos seus backups em servidores próprios
-- Se você **revogar acesso do HortPay no Google** ou **excluir manualmente** os arquivos da pasta AppDataFolder, **não conseguiremos recuperá-los**
-- O HortPay mantém apenas os **últimos 5 backups automáticos** (rotação). Backups mais antigos são deletados sem aviso.
-- A confiabilidade e disponibilidade do Google Drive são regidas pelos [Termos do Google](https://policies.google.com/terms). O HortPay não é responsável por indisponibilidade ou perda de dados no lado do Google.
-- **Recomendamos**: mantenha também um backup local exportado (Configurações → Backup e Restauração Local) periodicamente.
+É proibido:
 
----
-
-## 7. Restauração de backup
-
-Ao restaurar um backup:
-
-- **Todos os dados atuais no dispositivo serão substituídos** pelos dados do backup selecionado
-- Um snapshot de segurança é criado automaticamente antes da restauração (best-effort — pode falhar em conexões instáveis)
-- Após a restauração, recomendamos fechar e reabrir o app
-- O HortPay **não se responsabiliza** por perda de dados que não estavam no backup selecionado
+- Modificar, descompilar ou realizar engenharia reversa do aplicativo;
+- Distribuir, revender ou sublicenciar o aplicativo;
+- Utilizar o aplicativo para fins ilegais, fraudulentos ou que prejudiquem terceiros;
+- Remover avisos de direitos autorais, marcas ou identificações do desenvolvedor.
 
 ---
 
-## 8. Limitação de responsabilidade
+# 4. Assinatura e Pagamento
 
-O HortPay é fornecido "**como está**" (as-is), sem garantias de qualquer natureza, expressas ou implícitas, incluindo mas não limitando a: adequação a um propósito específico, ausência de erros, disponibilidade contínua.
+### 4.1. Período de Teste Inicial
 
-Em nenhuma circunstância o desenvolvedor do HortPay será responsável por:
+Na primeira instalação do aplicativo, o usuário terá direito a **2 (dois) dias de uso gratuito**, com acesso a todas as funcionalidades.
 
-- Perda de dados por falha do dispositivo, erro do usuário, ou problema no Google Drive
-- Prejuízos financeiros decorrentes de decisões tomadas com base em relatórios do app
-- Interrupção do serviço por manutenção, atualização ou fim de vida do produto
-- Danos indiretos, consequenciais, incidentais ou punitivos
+### 4.2. Assinatura e Período de Teste do Google Play
 
-Limite máximo de responsabilidade: **valor pago pelo app** (R$ 0,00 — o app é gratuito).
+Após o término do período gratuito inicial, será necessária a contratação do **Plano Mensal** através do Google Play.
 
-**Recomendação enfática**: para dados críticos, mantenha múltiplos backups (nuvem + local + exportação manual periódica).
+Após a assinatura, o Google Play concederá **30 (trinta) dias adicionais de teste gratuito**, vinculados à conta Google utilizada na assinatura.
 
----
+### 4.3. Cobrança e Valor
 
-## 9. Atualizações e descontinuidade
+- **Valor da assinatura:** R$ 19,90 por mês;
+- A cobrança ocorrerá automaticamente após o término do período de teste de 30 dias;
+- Os preços poderão ser reajustados mediante aviso prévio mínimo de 30 dias;
+- Usuários que possuírem assinatura ativa em plano anterior poderão permanecer com o preço originalmente contratado, conforme política do Google Play.
 
-- Podemos publicar atualizações do app na Google Play Store a qualquer momento
-- Atualizações podem incluir correções, novas funcionalidades ou alterações em recursos existentes
-- Nos reservamos o direito de descontinuar o serviço ou funcionalidades específicas a qualquer momento, com aviso prévio de 30 dias via update do app ou email de suporte
-- Em caso de descontinuidade, garantiremos que os backups na nuvem permanecerão acessíveis para exportação por pelo menos 90 dias
+### 4.4. Modo Somente Leitura
 
----
+Após o término do período de teste ou em caso de expiração da assinatura, os dados permanecerão acessíveis em **modo somente leitura**.
 
-## 10. Preço
+Para criar, editar ou excluir registros relacionados a:
 
-O HortPay é atualmente **gratuito**. Nos reservamos o direito de introduzir modelos pagos ou recursos premium no futuro, com aviso prévio. Recursos básicos permanecerão gratuitos.
+- Cultivos;
+- Vendas;
+- Estoque;
+- Contas a Pagar;
+- Contas a Receber;
+- Fluxo de Caixa;
+- Cartões de Crédito;
+- Saldo Inicial;
+- Configurações;
 
-Não há compras dentro do app (in-app purchases) na versão atual.
+será obrigatória a manutenção de uma assinatura ativa.
 
----
+### 4.5. Processamento dos Pagamentos
 
-## 11. Rescisão
+Todos os pagamentos são processados exclusivamente pela plataforma **Google Play Billing**.
 
-Você pode parar de usar o HortPay a qualquer momento:
+O HortPay não coleta nem armazena informações de cartões de crédito, débito ou contas bancárias.
 
-- Desinstalando o app do dispositivo (dados locais são apagados)
-- Revogando acesso do HortPay no Google ([myaccount.google.com/security](https://myaccount.google.com/security))
-- Solicitando exclusão total de backups na nuvem via `hortpay.suporte@gmail.com`
+Para informações sobre cobranças, consulte o suporte oficial do Google Play.
 
----
+### 4.6. Renovação Automática
 
-## 12. Alterações destes Termos
+A assinatura será renovada automaticamente ao final de cada ciclo mensal, salvo cancelamento realizado pelo próprio usuário.
 
-Estes Termos podem ser atualizados. A data de "Última atualização" no topo será alterada. Alterações significativas serão notificadas via update do app.
+O cancelamento pode ser efetuado em:
 
-Uso continuado após uma atualização implica aceitação dos Termos revisados. Se você não concordar com alterações, deve descontinuar o uso do app.
+**Google Play → Conta → Assinaturas → HortPay → Cancelar**
 
----
+### 4.7. Cancelamento
 
-## 13. Lei aplicável
+O usuário poderá cancelar sua assinatura a qualquer momento através da Google Play Store.
 
-Estes Termos são regidos pela legislação brasileira. Foro eleito: comarca do domicílio do desenvolvedor, salvo disposição legal em contrário.
+Caso o cancelamento seja realizado durante o período de teste gratuito de 30 dias, nenhum valor será cobrado.
 
----
+### 4.8. Reembolsos
 
-## 14. Contato
+Os pedidos de reembolso seguem exclusivamente as políticas do Google Play.
 
-Dúvidas, reclamações, solicitações:
-
-**Email:** gestaodeestufashf@gmail.com
-
-
----
-
-## 15. Reconhecimentos
-
-- **Google Drive API** — usado sob os termos da [Google APIs Terms of Service](https://developers.google.com/terms). O HortPay não é afiliado ao Google LLC.
-- **Expo & React Native** — frameworks open-source usados na construção do app
-- **SQLite** — banco de dados local
+Em caso de cobrança indevida ou falha técnica, recomenda-se entrar em contato tanto com o suporte do HortPay quanto com o suporte oficial do Google Play.
 
 ---
 
-*HortPay © 2026. Aplicativo desenvolvido de forma independente. Todos os direitos reservados.*
+# 5. Responsabilidades do Usuário
+
+O usuário é o único responsável por:
+
+- Manter seu dispositivo protegido por senha, PIN ou biometria;
+- Manter o sistema Android atualizado;
+- Realizar backups periódicos de seus dados por meio do recurso **Configurações → Backup** (arquivo JSON local e/ou Backup na Nuvem via Google Drive);
+- Proteger e não compartilhar seus arquivos de backup e as credenciais da conta Google utilizada no Backup na Nuvem;
+- Inserir informações corretas e verdadeiras no aplicativo;
+- Manter ativa a conta Google utilizada na assinatura;
+- Cumprir toda a legislação fiscal, trabalhista e ambiental aplicável à sua atividade agrícola;
+- Conferir todos os cálculos, relatórios e notificações antes de utilizá-los para fins contábeis, fiscais ou financeiros.
+
+---
+
+# 6. Limitação de Responsabilidade
+
+O HortPay é fornecido **"no estado em que se encontra" ("as is")**, sem garantia de:
+
+- Resultados financeiros específicos;
+- Resultados produtivos específicos;
+- Ausência total de erros ou falhas;
+- Funcionamento ininterrupto;
+- Compatibilidade com todos os dispositivos Android;
+- Exatidão absoluta dos cálculos financeiros, notificações ou projeções de fluxo de caixa;
+- Disponibilidade ininterrupta dos serviços de terceiros (Google Play, Login com Google e Google Drive), que dependem da conta e da conexão do próprio usuário.
+
+O desenvolvedor não será responsável por:
+
+- Perda de dados decorrente de desinstalação, troca de aparelho, falha de hardware ou ausência de backup;
+- Falha, indisponibilidade ou perda de backups na nuvem decorrente de problemas na conta Google do usuário, revogação de acesso, ausência de espaço no Google Drive ou instabilidade dos serviços do Google;
+- Danos indiretos, lucros cessantes ou interrupção das atividades do usuário;
+- Decisões financeiras, fiscais ou contábeis tomadas com base nos relatórios do aplicativo;
+- Falhas ou atrasos em notificações causados por permissões desativadas, economia de bateria ou reinicialização do dispositivo;
+- Erros decorrentes de informações inseridas incorretamente pelo usuário, incluindo datas de fechamento e vencimento de cartões, valores de parcelas ou categorias;
+- Problemas ocasionados por modificações não autorizadas no Android ou no aplicativo.
+
+Caso haja responsabilidade civil do desenvolvedor, esta ficará limitada ao valor correspondente à **última mensalidade efetivamente paga pelo usuário**.
+
+---
+
+# 7. Propriedade Intelectual
+
+Todo o conteúdo do aplicativo, incluindo:
+
+- Código-fonte;
+- Interface;
+- Design;
+- Logotipo;
+- Nome "HortPay";
+- Identidade visual;
+
+é protegido pelas leis brasileiras de direitos autorais e propriedade intelectual.
+
+Todos os dados cadastrados pelo usuário, incluindo cultivos, vendas, estoque, lançamentos financeiros, fluxo de caixa, cartões, saldo inicial e análises de solo, permanecem sendo de propriedade exclusiva do próprio usuário.
+
+---
+
+# 8. Dados Pessoais
+
+O tratamento de dados pessoais é disciplinado pela **Política de Privacidade do HortPay**.
+
+### Resumo
+
+O aplicativo funciona de forma **offline-first** e, por padrão, não envia dados para servidores externos. Todos os dados permanecem no dispositivo do usuário.
+
+Opcionalmente, o usuário pode ativar o **Backup na Nuvem**, autenticando-se com sua conta Google (OAuth 2.0). Nesse caso, o arquivo de backup é enviado, por conexão criptografada (HTTPS), para uma pasta privada e exclusiva do aplicativo na própria conta Google Drive do usuário, utilizando o escopo **drive.appdata**.
+
+O desenvolvedor não tem acesso a esses dados.
+
+O login também disponibiliza ao aplicativo o e-mail, nome e foto de perfil da conta Google, armazenados de forma segura apenas no dispositivo.
+
+O usuário pode revogar esse acesso a qualquer momento.
+
+---
+
+# 9. Disponibilidade e Atualizações
+
+O desenvolvedor poderá:
+
+- Disponibilizar atualizações para correções, melhorias e novos recursos;
+- Descontinuar o aplicativo mediante aviso prévio mínimo de 60 dias.
+
+Recomenda-se manter o aplicativo sempre atualizado para garantir melhorias de segurança, backup e cálculos financeiros.
+
+---
+
+# 10. Suspensão ou Encerramento de Conta
+
+O acesso ao aplicativo poderá ser suspenso ou encerrado quando houver:
+
+- Violação destes Termos de Uso;
+- Atividade fraudulenta ou abusiva;
+- Determinação judicial.
+
+Nessas hipóteses, não haverá devolução de valores referentes ao período já pago.
+
+---
+
+# 11. Alterações destes Termos
+
+Os presentes Termos poderão ser alterados a qualquer momento.
+
+Alterações relevantes serão comunicadas dentro do aplicativo com antecedência mínima de **15 (quinze) dias**.
+
+A continuidade da utilização do aplicativo após a divulgação das alterações representará concordância com os novos Termos.
+
+---
+
+# 12. Foro e Legislação Aplicável
+
+Os presentes Termos são regidos pelas leis da **República Federativa do Brasil**.
+
+Fica eleito o foro da **Comarca de Capão Bonito/SP**, com renúncia a qualquer outro, por mais privilegiado que seja, para solucionar eventuais controvérsias relacionadas a estes Termos.
+
+---
+
+# 13. Contato
+
+Em caso de dúvidas, sugestões ou reclamações:
+
+**E-mail de suporte:**  
+gestaodeestufashf@gmail.com
+
+**Aplicativo:**  
+HortPay v1.0.91 — Android
+
+**Prazo médio de resposta:**  
+Até 7 (sete) dias úteis.
+
+---
+
+# Declaração Final
+
+Ao utilizar o **HortPay**, o usuário declara ter lido, compreendido e aceitado integralmente estes Termos de Uso e a Política de Privacidade, comprometendo-se a cumprir todas as condições aqui estabelecidas.
+
+**HortPay — Gestão agrícola e financeira para produtores rurais.**
+
+**Última atualização: 14 de setembro de 2026**
