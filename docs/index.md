@@ -236,6 +236,14 @@ body {
     </p>
   </div>
 
+  <div style="text-align: center; margin: 30px 0;">
+    <a href="https://play.google.com/store/apps/details?id=com.hortpay.app"
+       target="_blank"
+       style="display: inline-block; background: #2E7D32; color: white; padding: 14px 28px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 17px;">
+      📱 Baixar o HortPay
+    </a>
+  </div>
+
   <h2 class="hp-section-title">Tudo em um só lugar</h2>
 
   <div class="hp-grid">
